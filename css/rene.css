@@ -1,0 +1,178 @@
+html {
+    /* --scrollbarBG : #1B53E0; */
+    /* --thumbBG: #F53DF0; */
+    --scrollbarBG : #1B53E0;
+    --thumbBG: rgb(238, 175, 236);
+  }
+  body::-webkit-scrollbar {
+    width: 11px;
+  }
+
+  body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  }
+  body::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG) ;
+    border-radius: 6px;
+    border: 3px solid var(--scrollbarBG);
+    /* min-height: 70px; */
+  }
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 0.95em;
+    letter-spacing: 1px;
+    margin: 15px;   
+}
+
+a:hover {
+    color: #FD6900;
+    color: #16AFF8;
+}
+
+#panel {
+    background-color: #FFFFFF;
+    padding: 15px;
+    position: relative;
+}
+
+#header {
+    margin: 0 0 3px 0;
+}
+
+#headerLabel {
+    font-size: 1.25em;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    font-size: 1em;
+    margin: 5px 0;
+    color: navajowhite;
+       
+}
+
+#footer {
+    color: #30fff8; /*#8C8681;*/
+    font-size: 0.95em;
+   /* background-color: /*#CCC8C5;*/
+    margin: 25px 0 35px 0;
+}
+
+#copyright {
+    text-align: center;
+}
+
+#content {
+    min-height: 480px;
+    margin: 0 0 20px 0;
+}
+
+#statementPopup {
+    width: 600px;
+}
+
+#contactFormPopup {
+    width: 422px;
+    height: 595px;
+}
+
+.popup {
+    background-color: #FFFFFF;
+    margin: 0 0 0 30px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    border: 3px solid #CCC8C5;
+    display: none;
+}
+
+.popupHeader {
+    overflow: hidden;
+    margin: 25px 30px;
+}
+
+.popupHeaderLabel {
+    float: left;
+    font-weight: bold;
+}
+
+.popupHeaderLinks {
+    display: block;
+    float: right;
+}
+
+.popupHeaderLinks a {
+    cursor: pointer;
+}
+ 
+.jumbotron {
+    /* background-image: url(../images/work/weirdscape_3.jpg); */
+    height: 0;
+    position: relative;
+    /* padding: 20.51% 0 0 !important; */
+    /* padding: 31.43% 0 0 !important; 8*/
+    /* padding: 57.99% 0 0 !important11; */
+    padding: 36.56% 0 0 !important;
+    /* background-image: url(../images/work/weirdscape_4.jpg); */
+    /* background-image: url(../images/work/weirdscape_6.jpg); */
+    /* background: url(../images/work/weirdscape_6.jpg) 0 0 no-repeat; */
+    background: url(../images/work/weirdscape_11.jpg) 0 0 no-repeat;
+    background-size: cover;
+    opacity: .9;
+    /* margin: 0; */
+    /* margin-bottom: 10px; */
+}
+
+.display-4 {
+    color:rgb(247, 144, 247);
+    font-family: 'Modak', cursive;
+    text-align: center;
+    font-size: 5vw;
+    text-shadow: 1px 1px 2px rgb(10, 10, 10), 0 0 25px rgb(255, 0, 221), 0 0 5px darkblue;
+}
+
+.display-4 {
+    position: absolute;
+    top: 4.2em;
+    left: 0;
+    right: 0;
+  }
+
+img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+#btnScrollToTop {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* background: #1B85E0; */
+    box-shadow: 0 0 10px plum;
+    color: navajowhite;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    z-index: 99; /* Make sure it does not overlap */
+}
+
+#btnScrollToTop:active {
+    background: royalblue;
+}
+
+.imageTitle {
+    font-style: italic;
+    color: rgb(250, 203, 132);
+}
+
+  

@@ -1,0 +1,140 @@
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 0.95em;
+    font-style: color #0C52EB;
+    font-style: italic;
+   /* font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));*/
+    letter-spacing: 1px;
+    text-decoration: none;
+    /*background-color: #C9FFED; light teal**/
+    /*background-color: #E3FFFA; light green*/
+    background-color: #E3E0FA;
+
+}
+
+
+#panel {
+    padding: 15px;
+    position: relative;
+}
+
+#header {
+    margin: 0 0 3px 0;
+}
+
+#headerLabel {
+    font-size: 1.25em;
+}
+
+/*nav*/
+
+#nav {
+    font-size: 0.95em;
+    margin: 0 0 15px 0;
+}
+
+#nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul li {
+    width: 150px;
+    display: inline;
+}
+
+#nav ul li a {
+    color: #8C8681;
+    text-decoration: none;
+}
+
+#nav ul li a:hover {
+    color: #FD6900;
+    color: #16AFF8;
+}
+
+#nav ul li a.currentPage {
+    color: #FD6900;
+    color: #16AFF8;
+}
+
+
+/*cover*/
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50vh;
+}
+
+.cover {
+	width: 30em;
+}
+
+/*grid*/
+.grid-wrapper {
+	display: grid;
+	grid-gap: 60px;
+	grid-auto-rows: minmax(100px, auto);
+	grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+	margin: 60px;
+
+}
+
+.box > img {
+	width: 100%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+	/*grid-template-columns: repeat (auto-fill, minmax(200px, 1fr));
+	grid-row-start: 1;
+	grid-row-end: 3;
+	grid-gap: 20px;
+	justify-items: center;*/
+	/*grid-template-columns: 1fr;
+  	grid-template-rows: 500px; //squished version*/
+	/*display: grid; 
+	grid-auto-columns: 1fr;
+	grid-auto-rows: 500px;  //somewhat squished version//*/
+	/*//video version//*/
+	/*grid-template-columns: repeat(auto-fill, minmax(100px 1fr)); 
+	grid-auto-rows: 1fr;
+	grid-row-gap: 40px;
+	margin-left: 200px;
+	margin-right: 80px;
+	margin-top: 30px;*/
+
+}
+
+
+/*image container*/
+/*.imageContainer {
+	height: 100vh;
+	width: 100vh;
+	padding-bottom: 3em;
+}
+
+.imageContainer img {
+	display: block;
+	max-height: 100%;
+}
+
+.imageContainer p {
+}*/
+
+
+
+p {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
